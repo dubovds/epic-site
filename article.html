@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Price</title>
+  <title>Article</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/app.min.css">
 </head>
@@ -29,7 +29,7 @@
         <ul class="menu__list">
           <li class="menu__item"><a href="#" class="try-link">Try it Free</a></li>
           <li class="menu__item"><a href="#" class="menu__link">Integrations</a></li>
-          <li class="menu__item active"><a href="price.html" class="menu__link">Pricing</a></li>
+          <li class="menu__item"><a href="price.html" class="menu__link">Pricing</a></li>
           <li class="menu__item"><a href="how-to-use.html" class="menu__link">How to Use</a></li>
         </ul>
       </nav>
@@ -49,108 +49,114 @@
   </div>
 </header>
 <main>
-  <section class="section">
+  <section class="section article-header">
     <div class="container">
-      <div class="row">
-        <div class="col-small">
-          <div class="page-title">
-            Plans that fit your needs
+      <div class="breadcrumbs">
+        <a href="#" class="breadcrumbs__link">Home page</a>
+        <a href="#" class="breadcrumbs__link">How to use</a>
+        <span class="breadcrumbs__link">Managing projects</span>
+      </div>
+      <div class="section-title">
+        How to archive and unarchive your projects
+      </div>
+    </div>
+  </section>
+  <section class="section article">
+    <div class="container">
+      <div class="article__row">
+        <div class="article__block">
+          <div class="article__media"></div>
+          <div class="article__content">
+            <div class="block">
+              <p>Archiving is a great way to manage projects you no longer need to access.</p>
+              <p>Once a project is archived, it becomes inactive. That means it will no longer be accessible to edit or view the project, including collaborators or people who have access to the share link.</p>
+            </div>
+
+            <div class="block block_grey">
+              <h4>Free plan limits</h4>
+              <p>The free plan has a limit of 1 project. Archived projects do not count toward your limit.</p>
+              <p>If you need to create another project you can simply archive your existing project which will make it inactive, allowing you to create a new project. If you wish to unarchive a project, make sure you do not have any active projects first. Need more projects? Upgrade here for unlimited active projects.</p>
+            </div>
+
+            <div class="block">
+              <h2>How to archive your project:</h2>
+              <ol>
+                <li>Go to your <a href="#">dashboard</a></li>
+                <li>Hover over the project you want to archive</li>
+                <li>Click the checkbox</li>
+                <li>Click Archive in the bottom bar</li>
+                <li>A copy of your project will appear on your dashboard!</li>
+              </ol>
+              <p>You can find your archived projects by clicking on <a href="#">Archive</a> on the left-hand sidebar.</p>
+            </div>
+
+            <div class="block">
+              <h2>How to unarchive your project</h2>
+              <ol>
+                <li>Go to your Archive dashboard</li>
+                <li>Hover over the project you want to unarchive</li>
+                <li>Click Unarchive</li>
+              </ol>
+              <p>The project will become active and available on your dashboard.</p>
+            </div>
+
+            <div class="article__question-block">
+              <div class="">
+                <h4>Was this article helpful?</h4>
+                <div class="description">0 out of 3 found this helpful</div>
+              </div>
+              <div class="article__question-buttons">
+                <button class="article__question-btn">
+                  Yes
+                </button>
+                <button class="article__question-btn">
+                  No
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-big">
-          <div class="description">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
-          </div>
+
+        <div class="article__sidebar">
+          <h2 class="how-to-menu__title">
+            In this category
+          </h2>
+          <ul class="how-to-menu__list">
+            <li>
+              <a href="#">An introduction to User Testing</a>
+            </li>
+            <li>
+              <a href="#">How to use sections</a>
+            </li>
+            <li>
+              <a href="#">How to upgrade your plan</a>
+            </li>
+            <li>
+              <a href="#">Where can I find my invoices/receipts?</a>
+            </li>
+            <li>
+              <a href="#">How to get in touch with your dedicated Experience Manager</a>
+            </li>
+            <li>
+              <a href="#">What are your account and project security features?</a>
+            </li>
+            <li>
+              <a href="#">Where can I find my invoices/receipts?</a>
+            </li>
+            <li>
+              <a href="#">How to upgrade your plan</a>
+            </li>
+            <li>
+              <a href="#">How to upgrade your plan</a>
+            </li>
+            <li>
+              <a href="#">How to upgrade your plan</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
-
-  <section class="section price">
-    <div class="container">
-      <div class="price__wrapper">
-        <div class="price__card price__card_free">
-          <h2 class="price__title">Free</h2>
-          <div class="price__pretitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>
-          <div class="price__value">$0</div>
-          <div class="price__value-description">
-            No credit card required.<br>
-            One project, free forever.
-          </div>
-          <a href="/" class="btn btn_dark">Sign up free</a>
-          <ul class="price__list">
-            <li class="price__list-item">Create up to 3 forms</li>
-            <li class="price__list-item">20 submissions each month</li>
-            <li class="price__list-item">1 seat</li>
-            <li class="price__list-item">Full-featured form builder</li>
-            <li class="price__list-item">Receive email notifications and file uploads</li>
-            <li class="price__list-item">50+ integrations with apps and payment processors</li>
-            <li class="price__list-item">24/5 technical support</li>
-          </ul>
-        </div>
-        <div class="price__card price__card_standart">
-          <h2 class="price__title">Standart</h2>
-          <div class="price__pretitle">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>
-          <div class="price__value">$9</div>
-          <div class="price__value-description">
-            No credit card required.<br>
-            One project, free forever.
-          </div>
-          <a href="/" class="btn btn_red">Get Epic Form Now</a>
-          <ul class="price__list">
-            <li class="price__list-item">Start with 5 forms</li>
-            <li class="price__list-item">Unlimited submissions</li>
-            <li class="price__list-item">1 seat</li>
-            <li class="price__list-item">Your logo and branding on all forms (123 Branding removed)</li>
-            <li class="price__list-item">Export results to CSV, Excel, and PDF</li>
-            <li class="price__list-item">Set up custom SMS and Email notifications</li>
-            <li class="price__list-item">Multi-language forms</li>
-            <li class="price__list-item">Add conditional logic to your forms</li>
-          </ul>
-        </div>
-<!--        <div class="price__card price__card_advanced">-->
-<!--          <h2 class="price__title">Advanced</h2>-->
-<!--          <div class="price__pretitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>-->
-<!--          <div class="price__value">$19</div>-->
-<!--          <div class="price__value-description">-->
-<!--            No credit card required.<br>-->
-<!--            One project, free forever.-->
-<!--          </div>-->
-<!--          <a href="/" class="btn btn_red">Get Epic Form Now</a>-->
-<!--          <ul class="price__list">-->
-<!--            <li class="price__list-item">Start with 5 forms</li>-->
-<!--            <li class="price__list-item">Unlimited submissions</li>-->
-<!--            <li class="price__list-item">Start with 3 seats and-->
-<!--              expand up to 10</li>-->
-<!--            <li class="price__list-item">Approve or reject submissions</li>-->
-<!--            <li class="price__list-item">Set team permission levels (admin, editor, viewer)</li>-->
-<!--            <li class="price__list-item">Set up custom SMS and Email notifications for your whole team</li>-->
-<!--            <li class="price__list-item">Secure data with encryption</li>-->
-<!--            <li class="price__list-item">Customize your data reports</li>-->
-<!--          </ul>-->
-<!--        </div>-->
-<!--        <div class="price__card price__card_full">-->
-<!--          <h2 class="price__title">Advanced</h2>-->
-<!--          <div class="price__pretitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</div>-->
-<!--          <div class="price__value">$199</div>-->
-<!--          <div class="price__value-description">No credit card required.-->
-<!--            One project, free forever.</div>-->
-<!--          <a href="/" class="btn btn_white">Get Epic Form Now</a>-->
-<!--          <ul class="price__list">-->
-<!--            <li class="price__list-item">Start with 5 forms</li>-->
-<!--            <li class="price__list-item">Unlimited submissions</li>-->
-<!--            <li class="price__list-item">Start with 3 seats and expand to as many as you want</li>-->
-<!--            <li class="price__list-item">Dedicated account manager and custom contract</li>-->
-<!--            <li class="price__list-item">Prefill forms and send data to and from Salesforce or your own database</li>-->
-<!--            <li class="price__list-item">White-label form builder</li>-->
-<!--            <li class="price__list-item">Single-sign on (SSO)</li>-->
-<!--          </ul>-->
-<!--        </div>-->
-      </div>
-    </div>
-  </section>
-
   <section class="section ask-banner">
     <div class="container">
       <div class="ask-banner__wrapper">

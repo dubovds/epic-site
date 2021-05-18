@@ -11,8 +11,11 @@
   <header class="header">
     <div class="header__wrapper">
       <div class="logo">
-        <a href="#">
+        <a href="/" class="mobile-hidden">
           <img src="images/dest/logo.svg" alt="">
+        </a>
+        <a href="/" class="mobile-show">
+          <img src="images/dest/logo-mobile.svg" alt="">
         </a>
         <div class="logo__description">
           Version sit amet, consectetuer adipiscing elit.
@@ -20,16 +23,27 @@
       </div>
       <div class="nav-block">
         <nav class="menu">
+          <div class="menu__title">
+            Menu
+          </div>
           <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="try-link">Try it Free</a></li>
+            <li class="menu__item active"><a href="#" class="try-link">Try it Free</a></li>
             <li class="menu__item"><a href="#" class="menu__link">Integrations</a></li>
             <li class="menu__item"><a href="price.html" class="menu__link">Pricing</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">How to Use</a></li>
+            <li class="menu__item"><a href="how-to-use.html" class="menu__link">How to Use</a></li>
           </ul>
         </nav>
         <div class="reg-block">
           <a href="#" class="menu__link">Sign In</a>
           <a href="#" class="btn btn_red">Sign Up Free</a>
+        </div>
+      </div>
+      <div class="mobile-btn">
+        <div id="nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
     </div>
@@ -57,7 +71,7 @@
           </div>
           <div class="col col-big">
             <div class="home-image">
-              <img src="images/dest/pic.png" alt="">
+              <img src="images/dest/pic-1.png" alt="">
             </div>
           </div>
         </div>
@@ -69,7 +83,8 @@
         <h2 class="section-title">
           Features you don't want to miss
         </h2>
-        <div class="description wow animate__animated animate__slideInUp" data-wow-duration="1.5s" data-wow-delay=".2s">
+
+        <div class="description wow animate__animated animate__slideInUp" data-wow-duration="1s" data-wow-delay=".3s">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo <br>
           ligula eget dolor. Aenean massa.
         </div>
@@ -78,94 +93,114 @@
             <div class="info__icon">
               <img src="images/dest/icon1.svg" alt="">
             </div>
-            <h3 class="info__title">Simple yet powerful <br> online
-              form builder</h3>
-            <div class="info__text">
-              File uploads, eSignature other fields and actions. Multicolumn layouts and conditional logic
+            <div class="info__content">
+              <h3 class="info__title">Simple yet powerful <br> online
+                form builder</h3>
+              <div class="info__text">
+                File uploads, eSignature other fields and actions. Multicolumn layouts and conditional logic
+              </div>
             </div>
           </div>
           <div class="info__item">
             <div class="info__icon">
               <img src="images/dest/icon2.svg" alt="">
             </div>
-            <h3 class="info__title">Multiple platform integrations</h3>
-            <div class="info__text">
-              Wix, Wordpress, Facebook, in-house landing pages and others are waiting
+            <div class="info__content">
+              <h3 class="info__title">Multiple platform integrations</h3>
+              <div class="info__text">
+                Wix, Wordpress, Facebook, in-house landing pages and others are waiting
+              </div>
             </div>
           </div>
           <div class="info__item">
             <div class="info__icon">
               <img src="images/dest/icon3.svg" alt="">
             </div>
-            <h3 class="info__title">Mini e-commerce like solutions</h3>
-            <div class="info__text">
-              Events registration, product cards and
-              pricing tables
+            <div class="info__content">
+              <h3 class="info__title">Mini e-commerce like solutions</h3>
+              <div class="info__text">
+                Events registration, product cards and
+                pricing tables
+              </div>
             </div>
           </div>
           <div class="info__item">
             <div class="info__icon">
               <img src="images/dest/icon4.svg" alt="">
             </div>
-            <h3 class="info__title">Payment gateways integration</h3>
-            <div class="info__text">
-              Either it is a single transaction or a subscription PayPal, Stripe, Square and others are available
+            <div class="info__content">
+              <h3 class="info__title">Payment gateways integration</h3>
+              <div class="info__text">
+                Either it is a single transaction or a subscription PayPal, Stripe, Square and others are available
+              </div>
             </div>
           </div>
           <div class="info__item">
             <div class="info__icon">
               <img src="images/dest/icon5.svg" alt="">
             </div>
-            <h3 class="info__title">Webhooks API and multiplatform
-              integrations</h3>
-            <div class="info__text">
-              Mailchimp, SalesForce, Google Drive, Dropbox, Zapier and more
+            <div class="info__content">
+              <h3 class="info__title">Webhooks API and multiplatform
+                integrations</h3>
+              <div class="info__text">
+                Mailchimp, SalesForce, Google Drive, Dropbox, Zapier and more
+              </div>
             </div>
           </div>
           <div class="info__item">
             <div class="info__icon">
               <img src="images/dest/icon6.svg" alt="">
             </div>
-            <h3 class="info__title">Landing page builder</h3>
-            <div class="info__text">
-              Build your own landing pages with forms to collect data or sell products.
+            <div class="info__content">
+              <h3 class="info__title">Landing page builder</h3>
+              <div class="info__text">
+                Build your own landing pages with forms to collect data or sell products.
+              </div>
             </div>
           </div>
           <div class="info__item">
             <div class="info__icon">
               <img src="images/dest/icon7.svg" alt="">
             </div>
-            <h3 class="info__title">Your own branding</h3>
-            <div class="info__text">
-              Add your domain and email address for brand recognition to your forms
-              and landings
+            <div class="info__content">
+              <h3 class="info__title">Your own branding</h3>
+              <div class="info__text">
+                Add your domain and email address for brand recognition to your forms
+                and landings
+              </div>
             </div>
           </div>
           <div class="info__item">
             <div class="info__icon">
               <img src="images/dest/icon8.svg" alt="">
             </div>
-            <h3 class="info__title">User management</h3>
-            <div class="info__text">
-              Have customers you are collecting data for? Provide them with access to their data with a fine grained user access management and action permissions.
+            <div class="info__content">
+              <h3 class="info__title">User management</h3>
+              <div class="info__text">
+                Have customers you are collecting data for? Provide them with access to their data with a fine grained user access management and action permissions.
+              </div>
             </div>
           </div>
           <div class="info__item">
             <div class="info__icon">
               <img src="images/dest/icon9.svg" alt="">
             </div>
-            <h3 class="info__title">User engagement</h3>
-            <div class="info__text">
-              Set up Autoresponders, Confirmation or follow up emails to your users
+            <div class="info__content">
+              <h3 class="info__title">User engagement</h3>
+              <div class="info__text">
+                Set up Autoresponders, Confirmation or follow up emails to your users
+              </div>
             </div>
           </div>
           <div class="info__item">
             <div class="info__icon">
               <img src="images/dest/icon10.svg" alt="">
             </div>
-            <h3 class="info__title">Data insights and export</h3>
-            <div class="info__text">
-              See the stats on your data or export the data for further processing
+            <div class="info__content">
+              <h3 class="info__title">Data insights and export</h3>
+              <div class="info__text">
+                See the stats on your data or export the data for further processing
+              </div>
             </div>
           </div>
         </div>
@@ -173,8 +208,8 @@
     </section>
     <section class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-small wow animate__animated animate__fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.5s">
+        <div class="row reverse-mobile">
+          <div class="col-small wow animate__animated animate__fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
             <h2 class="section-title">
               Create your own <br>
               Epic Forms.
@@ -183,6 +218,9 @@
               <p>
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque.
               </p>
+            </div>
+            <div class="buttons-block">
+              <a href="#" class="btn btn_red">Try it Free</a>
             </div>
           </div>
           <div class="col-big">
@@ -196,13 +234,13 @@
 
     <section class="section">
       <div class="container">
-        <div class="row reverse-mobile">
+        <div class="row">
           <div class="col-big">
             <div class="home-image">
               <img src="images/dest/pic3.png" alt="">
             </div>
           </div>
-          <div class="col-small wow animate__animated animate__fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.5ns">
+          <div class="col-small wow animate__animated animate__fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
             <h2 class="section-title">
               More components,<br>more possibilities.
             </h2>
@@ -220,8 +258,8 @@
     </section>
     <section class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-small wow animate__animated animate__fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".5s">
+        <div class="row reverse-mobile">
+          <div class="col-small wow animate__animated animate__fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
             <h2 class="section-title">
               Advanced features. More actions.
             </h2>
@@ -278,25 +316,27 @@
             <div class="footer__text">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
             </div>
-            <div class="footer__copyright">
-              © 2021  Epic Form Builder
-            </div>
-            <div class="footer__social">
-              <a href="#" class="social-link in">
-                <img src="images/dest/in.svg" alt="instagram">
-              </a>
-              <a href="#" class="social-link">
-                <img src="images/dest/fb.svg" alt="facebook">
-              </a>
-              <a href="#" class="social-link">
-                <img src="images/dest/youtube.svg" alt="youtube">
-              </a>
-              <a href="#" class="social-link">
-                <img src="images/dest/twitter.svg" alt="twitter">
-              </a>
-              <a href="#" class="social-link">
-                <img src="images/dest/insta.svg" alt="instagram">
-              </a>
+            <div class="tablet-lg-show">
+              <div class="footer__copyright">
+                © 2021  Epic Form Builder
+              </div>
+              <div class="footer__social">
+                <a href="#" class="social-link in">
+                  <img src="images/dest/in.svg" alt="instagram">
+                </a>
+                <a href="#" class="social-link">
+                  <img src="images/dest/fb.svg" alt="facebook">
+                </a>
+                <a href="#" class="social-link">
+                  <img src="images/dest/youtube.svg" alt="youtube">
+                </a>
+                <a href="#" class="social-link">
+                  <img src="images/dest/twitter.svg" alt="twitter">
+                </a>
+                <a href="#" class="social-link">
+                  <img src="images/dest/insta.svg" alt="instagram">
+                </a>
+              </div>
             </div>
           </div>
           <div class="col-small">
@@ -320,6 +360,44 @@
                 <li class="footer__item"><a href="#" class="footer__menu-link">Customer Stories</a></li>
               </ul>
             </nav>
+            <div class="footer__store tablet-lg-show">
+              <a href="#">
+                <img src="images/dest/google-play-light.svg" alt="google play">
+              </a>
+              <a href="#">
+                <img src="images/dest/app-store-light.svg" alt="app store">
+              </a>
+            </div>
+          </div>
+          <div class="tablet-lg-hidden">
+            <div class="footer__social">
+              <a href="#" class="social-link in">
+                <img src="images/dest/in.svg" alt="instagram">
+              </a>
+              <a href="#" class="social-link">
+                <img src="images/dest/fb.svg" alt="facebook">
+              </a>
+              <a href="#" class="social-link">
+                <img src="images/dest/youtube.svg" alt="youtube">
+              </a>
+              <a href="#" class="social-link">
+                <img src="images/dest/twitter.svg" alt="twitter">
+              </a>
+              <a href="#" class="social-link">
+                <img src="images/dest/insta.svg" alt="instagram">
+              </a>
+            </div>
+            <div class="footer__copyright">
+              © 2021  Epic Form Builder
+            </div>
+            <div class="footer__store">
+              <a href="#">
+                <img src="images/dest/google-play-light.svg" alt="google play">
+              </a>
+              <a href="#">
+                <img src="images/dest/app-store-light.svg" alt="app store">
+              </a>
+            </div>
           </div>
         </div>
       </div>
